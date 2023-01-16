@@ -909,6 +909,18 @@
 					"value": 1
 				}
 			]
+		},
+		{
+			"#": "2000",
+			"$if": "firmwareVersion >= 3.3",
+			"label": "Wake-up Interval",
+			"description": "Time interval between checks for pending commands",
+			"valueSize": 2,
+			"unit": "seconds",
+			"minValue": 0,
+			"maxValue": 65535,
+			"defaultValue": 7200,
+			"unsigned": true
 		}
 	]
 }
